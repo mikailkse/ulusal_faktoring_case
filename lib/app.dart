@@ -4,7 +4,7 @@ import 'core/config/app_config.dart';
 import 'core/init/navigation/navigation_route.dart';
 import 'core/init/navigation/navigation_service.dart';
 import 'core/theme/theme.dart';
-import 'view/_bottom_navbar/view/bottom_navbar.dart';
+import 'view/splash/view/splash_view.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
     var dev = AppConfig.instance.enviroment.name;
     return MaterialApp(
       title: 'Ulusal Faktoring',
-      theme: dark,
+      theme: light,
       debugShowCheckedModeBanner: dev != 'dev' ? false : true,
       onGenerateRoute: NavigationRoute.instance.generateRoute,
       navigatorKey: NavigationService.instance.navigatorKey,
-      home: const BottomNavbar(),
+      home: const SplashView(),
     );
   }
 }

@@ -2,9 +2,9 @@ import 'dart:core';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:ulusal_faktoring_case/core/utility/network_routes.dart';
-import 'package:ulusal_faktoring_case/view/home/model/recent_activities_model.dart';
-import 'package:ulusal_faktoring_case/view/home/service/i_home_service.dart';
+import '../../../core/utility/network_routes.dart';
+import '../model/recent_activities_model.dart';
+import 'i_home_service.dart';
 
 import '../../../core/init/network/network/service_helper.dart';
 

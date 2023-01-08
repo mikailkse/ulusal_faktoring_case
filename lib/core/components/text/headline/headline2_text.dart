@@ -17,12 +17,12 @@ class Headline2Text extends AutoSizeText {
           textScaleFactor: 1,
           textAlign: textAlign,
           maxLines: maxLines,
-          style: dark.textTheme.headline2!.copyWith(
+          style: light.textTheme.headline2!.copyWith(
             color: color,
-            fontWeight: dark.textTheme.headline2!.fontWeight,
-            fontFamily: dark.textTheme.headline2!.fontFamily,
-            fontSize: dark.textTheme.headline2!.fontSize,
-            fontStyle: dark.textTheme.headline2!.fontStyle,
+            fontWeight: light.textTheme.headline2!.fontWeight,
+            fontFamily: light.textTheme.headline2!.fontFamily,
+            fontSize: light.textTheme.headline2!.fontSize,
+            fontStyle: light.textTheme.headline2!.fontStyle,
           ),
         );
 }

@@ -10,12 +10,12 @@ class Headline4Text extends AutoSizeText {
           text,
           overflow: TextOverflow.ellipsis,
           textScaleFactor: 1,
-          style: dark.textTheme.headline4!.copyWith(
+          style: light.textTheme.headline4!.copyWith(
             color: color,
-            fontWeight: dark.textTheme.headline4!.fontWeight,
-            fontFamily: dark.textTheme.headline4!.fontFamily,
-            fontSize: dark.textTheme.headline4!.fontSize,
-            fontStyle: dark.textTheme.headline4!.fontStyle,
+            fontWeight: light.textTheme.headline4!.fontWeight,
+            fontFamily: light.textTheme.headline4!.fontFamily,
+            fontSize: light.textTheme.headline4!.fontSize,
+            fontStyle: light.textTheme.headline4!.fontStyle,
           ),
         );
 }

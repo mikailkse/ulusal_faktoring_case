@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../constants/color/app_colors.dart';
 
-final ThemeData dark = ThemeData(
+final ThemeData light = ThemeData(
   scaffoldBackgroundColor: AppColors.white,
   appBarTheme: AppBarTheme(
     elevation: 0,

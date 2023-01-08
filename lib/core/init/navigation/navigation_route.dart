@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ulusal_faktoring_case/view/account_detail/view/account_detail_view.dart';
+import '../../../view/account_detail/view/account_detail_view.dart';
 
 import '../../../view/_bottom_navbar/view/bottom_navbar.dart';
 

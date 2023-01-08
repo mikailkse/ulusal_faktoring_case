@@ -18,12 +18,12 @@ class BodyMediumText extends AutoSizeText {
           textScaleFactor: 1,
           textAlign: textAlign,
           maxLines: maxLines,
-          style: dark.textTheme.bodyText2!.copyWith(
+          style: light.textTheme.bodyText2!.copyWith(
             color: color,
-            fontWeight: dark.textTheme.bodyText2!.fontWeight,
-            fontFamily: dark.textTheme.bodyText2!.fontFamily,
-            fontSize: dark.textTheme.bodyText2!.fontSize,
-            fontStyle: dark.textTheme.bodyText2!.fontStyle,
+            fontWeight: light.textTheme.bodyText2!.fontWeight,
+            fontFamily: light.textTheme.bodyText2!.fontFamily,
+            fontSize: light.textTheme.bodyText2!.fontSize,
+            fontStyle: light.textTheme.bodyText2!.fontStyle,
           ),
         );
 }

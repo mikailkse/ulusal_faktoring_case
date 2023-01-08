@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:ulusal_faktoring_case/core/common/viewmodel/base_view_model.dart';
-import 'package:ulusal_faktoring_case/view/account_detail/model/account_detail_model.dart';
-import 'package:ulusal_faktoring_case/view/account_detail/service/account_detail_service.dart';
+import '../../../core/common/viewmodel/base_view_model.dart';
+import '../model/account_detail_model.dart';
+import '../service/account_detail_service.dart';
 
 import '../../../core/utility/network_routes.dart';
 

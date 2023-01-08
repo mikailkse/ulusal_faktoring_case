@@ -1,9 +1,9 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ulusal_faktoring_case/core/components/loading/loading.dart';
 
 import '../../../core/components/container/appbariconcontainer.dart';
+import '../../../core/components/loading/loading.dart';
 import '../../../core/components/text/body/body_medium_text.dart';
 import '../../../core/components/text/body/body_small_text.dart';
 import '../../../core/components/text/headline/headline3_text.dart';
@@ -67,6 +67,7 @@ class _BalanceAccountDetail extends StatelessWidget {
       builder: (context, viewModel, child) => viewModel.isLoading == true
           ? const Loading()
           : ListView.builder(
+              physics: const BouncingScrollPhysics(),
               itemCount: viewModel.accountDetailsModel.length,
               shrinkWrap: true,
               itemBuilder: (context, index) {

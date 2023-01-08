@@ -10,12 +10,12 @@ class ButtonLargeText extends AutoSizeText {
           text,
           overflow: TextOverflow.ellipsis,
           textScaleFactor: 1,
-          style: dark.textTheme.button!.copyWith(
+          style: light.textTheme.button!.copyWith(
             color: color,
-            fontWeight: dark.textTheme.button!.fontWeight,
-            fontFamily: dark.textTheme.button!.fontFamily,
-            fontSize: dark.textTheme.button!.fontSize,
-            fontStyle: dark.textTheme.button!.fontStyle,
+            fontWeight: light.textTheme.button!.fontWeight,
+            fontFamily: light.textTheme.button!.fontFamily,
+            fontSize: light.textTheme.button!.fontSize,
+            fontStyle: light.textTheme.button!.fontStyle,
           ),
         );
 }

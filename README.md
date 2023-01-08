@@ -1,17 +1,53 @@
-# ulusal_faktoring_case
+# Flutter - Mobile Case ULUSAL FAKTORING
 
-A new Flutter project.
+## İlk Çalıştırma
 
-## Getting Started
+-**Dev ortamı için**
 
-This project is a starting point for a Flutter application.
+    flutter run --target=lib/main_dev.dart --flavor=dev
 
-A few resources to get you started if this is your first Flutter project:
+-**Prod ortamı için**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    flutter run --target=lib/main_prod.dart --flavor=prod
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# ulusal_faktoring_case
+kodlarını girerek ilk çalıştırmayı sağlayabilirsiniz.
+
+## Ekran Görüntüleri
+
+### Splah
+<img align="center" width="250" height="530" src="screenshots/splash.png">
+
+
+### Home
+<img align="center" width="250" height="530" src="screenshots/home.png">
+
+
+### Account Detail
+<img align="center" width="250" height="530" src="screenshots/accountdetail.png">
+
+### Account Detail
+<img align="center" width="250" height="530" src="screenshots/profil.png">
+
+
+## Neler Eklendi :question:
+
+- [x] Splash
+- [x] Home
+- [x] Account Detail
+- [x] State Management (Provider)
+- [x] Flavor
+
+
+## Kullanılan Paketler
+
+ #### Utilty
+ -intl,auto_size_text,kartal
+
+ #### Widget
+ -another_flushbar,smooth_page_indicator
+
+ #### State Management
+ -provider
+ 
+#### Network
+ -dio

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ulusal_faktoring_case/view/profile/view/profile_view.dart';
+import '../../profile/view/profile_view.dart';
 
 import '../../../core/components/bottomnavigationbar/bottomnavigationbar.dart';
 import '../../home/view/home_view.dart';

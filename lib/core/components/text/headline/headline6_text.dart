@@ -10,12 +10,12 @@ class Headline6Text extends AutoSizeText {
           text,
           overflow: TextOverflow.ellipsis,
           textScaleFactor: 1,
-          style: dark.textTheme.headline6!.copyWith(
+          style: light.textTheme.headline6!.copyWith(
             color: color,
-            fontWeight: dark.textTheme.headline6!.fontWeight,
-            fontFamily: dark.textTheme.headline6!.fontFamily,
-            fontSize: dark.textTheme.headline6!.fontSize,
-            fontStyle: dark.textTheme.headline6!.fontStyle,
+            fontWeight: light.textTheme.headline6!.fontWeight,
+            fontFamily: light.textTheme.headline6!.fontFamily,
+            fontSize: light.textTheme.headline6!.fontSize,
+            fontStyle: light.textTheme.headline6!.fontStyle,
           ),
         );
 }

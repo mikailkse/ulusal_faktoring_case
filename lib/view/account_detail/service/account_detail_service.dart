@@ -2,8 +2,8 @@ import 'dart:core';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:ulusal_faktoring_case/view/account_detail/model/account_detail_model.dart';
-import 'package:ulusal_faktoring_case/view/account_detail/service/i_account_detail_service.dart';
+import '../model/account_detail_model.dart';
+import 'i_account_detail_service.dart';
 
 import '../../../core/init/network/network/service_helper.dart';
 import '../../../core/utility/network_routes.dart';

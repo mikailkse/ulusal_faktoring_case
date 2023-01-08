@@ -17,12 +17,12 @@ class BodyText extends AutoSizeText {
           textScaleFactor: 1,
           textAlign: textAlign,
           maxLines: maxLines,
-          style: dark.textTheme.bodyText1!.copyWith(
+          style: light.textTheme.bodyText1!.copyWith(
             color: color,
-            fontWeight: dark.textTheme.bodyText1!.fontWeight,
-            fontFamily: dark.textTheme.bodyText1!.fontFamily,
-            fontSize: dark.textTheme.bodyText1!.fontSize,
-            fontStyle: dark.textTheme.bodyText1!.fontStyle,
+            fontWeight: light.textTheme.bodyText1!.fontWeight,
+            fontFamily: light.textTheme.bodyText1!.fontFamily,
+            fontSize: light.textTheme.bodyText1!.fontSize,
+            fontStyle: light.textTheme.bodyText1!.fontStyle,
           ),
         );
 }
