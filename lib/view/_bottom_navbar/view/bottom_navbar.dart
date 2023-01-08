@@ -7,6 +7,7 @@ import '../../home/view/home_view.dart';
 import '../viewmodel/bottom_navbar_viewmodel.dart';
 
 class BottomNavbar extends StatefulWidget {
+  static const routeName = 'bottomNavbar';
   const BottomNavbar({super.key});
 
   @override
@@ -35,7 +36,7 @@ class _BottomNavbarState extends State<BottomNavbar> {
   }
 
   List screens = [
-    HomeView(),
+    const HomeView(),
     const ProfileView(),
   ];
 }

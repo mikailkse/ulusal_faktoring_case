@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+import '../../../core/common/viewmodel/base_view_model.dart';
 
-class BottomNavbarViewModel extends ChangeNotifier {
+class BottomNavbarViewModel extends BaseViewModel {
   int selectedIndex = 0;
 
   void onItemTapped(int index) {

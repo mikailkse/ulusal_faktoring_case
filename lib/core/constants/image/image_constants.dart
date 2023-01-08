@@ -7,10 +7,12 @@ class ImageConstants {
 
   ImageConstants._init();
 
-  final qq_logo = 'qq_logo'.toPNG;
+  final ulusalfaktoring_logo = 'ulusal_faktoring'.toPNG;
+  final netlixlogo = 'netflixlogo'.toPNG;
+  final turkcellLogo = 'turklogo'.toPNG;
+  final personLogo = 'person'.toPNG;
 }
 
 extension ImageConstantsExtension on String {
   String get toPNG => 'assets/images/$this.png';
-  String get toSVG => 'assets/icons/$this.svg';
 }

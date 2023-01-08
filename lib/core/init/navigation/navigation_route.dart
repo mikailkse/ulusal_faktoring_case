@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ulusal_faktoring_case/view/account_detail/view/account_detail_view.dart';
 
-import '../../../view/home/view/home_view.dart';
+import '../../../view/_bottom_navbar/view/bottom_navbar.dart';
 
 class NavigationRoute {
   static final NavigationRoute _instance = NavigationRoute._init();
@@ -13,8 +13,8 @@ class NavigationRoute {
 
   Route<dynamic> generateRoute(RouteSettings args) {
     switch (args.name) {
-      case HomeView.routeName:
-        return FadeTransitionPageRoute(HomeView(), settings: args);
+      case BottomNavbar.routeName:
+        return FadeTransitionPageRoute(const BottomNavbar(), settings: args);
       case AccountDetailView.routeName:
         return FadeTransitionPageRoute(const AccountDetailView(),
             settings: args);

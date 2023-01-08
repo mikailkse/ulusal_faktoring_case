@@ -1,19 +1,18 @@
 // ignore_for_file: constant_identifier_names
 
-import '../constants/app/app_constants.dart';
+import 'package:ulusal_faktoring_case/core/constants/app/app_constants.dart';
 
 enum NetworkRoutes {
-  LOGIN,
-}
+  BASE_URL(AppConstants.BASEURL),
+  RECENTACTIVITIES(AppConstants.RECENTACTIVITIES),
+  ACCOUNTDETAILS(AppConstants.ACCOUNTDETAILS);
 
-extension NetwrokRoutesString on NetworkRoutes {
-  String get rawValue {
-    switch (this) {
-      case NetworkRoutes.LOGIN:
-        return AppConstants.BASEURL;
+  final String route;
 
-      default:
-        throw Exception('Routes Not Found');
-    }
-  }
+  const NetworkRoutes(this.route);
+
+  String withBaseUrl() => BASE_URL.route + route;
+
+  String withRecentActivities() => RECENTACTIVITIES.route;
+  String withAccountDetails() => ACCOUNTDETAILS.route;
 }

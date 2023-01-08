@@ -1,12 +1,7 @@
-import 'package:flutter/material.dart';
+part of '../../view/home_view.dart';
 
-import '../../constants/color/app_colors.dart';
-import '../../constants/string/string_constants.dart';
-import '../container/appbariconcontainer.dart';
-import '../text/headline/headline5_text.dart';
-
-class BaseAppBar extends AppBar {
-  BaseAppBar({super.key})
+class _HomeAppBar extends AppBar {
+  _HomeAppBar()
       : super(
           centerTitle: true,
           actions: [
