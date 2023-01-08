@@ -44,7 +44,7 @@ kodlarını girerek ilk çalıştırmayı sağlayabilirsiniz.
  -intl,auto_size_text,kartal
 
  #### Widget
- -another_flushbar,smooth_page_indicator
+ -smooth_page_indicator
 
  #### State Management
  -provider
