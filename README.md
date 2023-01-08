@@ -25,7 +25,7 @@ kodlarını girerek ilk çalıştırmayı sağlayabilirsiniz.
 ### Account Detail
 <img align="center" width="250" height="530" src="screenshots/accountdetail.png">
 
-### Account Detail
+### Profil
 <img align="center" width="250" height="530" src="screenshots/profil.png">
 
 
